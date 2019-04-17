@@ -1,0 +1,9 @@
+Benchmark                    (type)   Mode  Cnt         Score         Error  Units
+MapperBenchmark.mapper       Manual  thrpt    5  25131166.045 ± 1332891.939  ops/s
+MapperBenchmark.mapper    MapStruct  thrpt    5  24115295.014 ± 1396548.348  ops/s
+MapperBenchmark.mapper        Selma  thrpt    5  24291748.026 ±  828478.832  ops/s
+MapperBenchmark.mapper      JMapper  thrpt    5  23289713.781 ± 1025058.567  ops/s
+MapperBenchmark.mapper        Orika  thrpt    5   3824562.039 ±  151264.461  ops/s
+MapperBenchmark.mapper  ModelMapper  thrpt    5    277177.867 ±    8535.927  ops/s
+MapperBenchmark.mapper        Dozer  thrpt    5     73251.745 ±    6075.886  ops/s
+MapperBenchmark.mapper         BULL  thrpt    5    105893.040 ±   14807.544  ops/s
